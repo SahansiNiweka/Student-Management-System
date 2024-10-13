@@ -1,0 +1,17 @@
+Mar 22, 2024 2:35:55 PM system.StudentManagementSystem fetchDataFromDatabase
+SEVERE: Error fetching data from the database
+java.sql.SQLException: No suitable driver found for jdbc:mysql://localhost:3306/student_database
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:708)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+	at org.example.studentmanagementsystem/system.StudentManagementSystem.fetchDataFromDatabase(StudentManagementSystem.java:177)
+	at org.example.studentmanagementsystem/system.StudentManagementSystem.start(StudentManagementSystem.java:163)
+	at javafx.graphics/com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$9(LauncherImpl.java:847)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runAndWait$12(PlatformImpl.java:484)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:457)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:456)
+	at javafx.graphics/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:96)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:184)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
